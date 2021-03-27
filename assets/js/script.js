@@ -61,6 +61,7 @@ const validar = () => {
         alert("Tu teléfono sólo debe contener números.");
         return false;
     } else {
-        alert("Hola "+firstName+", tu registro quedó listo :)")
+        alert("Hola "+firstName+", tu registro quedó listo :)");
+        location.reload();
     }
 };
